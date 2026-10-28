@@ -1,0 +1,6 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "berta-hidalgo-sitio-web-institucional",
+  "compatibility_date": "2026-10-28",
+  "assets": { "directory": "./dist", "not_found_handling": "404-page" }
+}

@@ -1,0 +1,7 @@
+---
+import Base from '../../layouts/Base.astro';
+import {getCollection,render} from 'astro:content';
+export async function getStaticPaths(){return (await getCollection('noticias',({data})=>!data.draft)).map(post=>({params:{id:post.id},props:{post}}));}
+const {post}=Astro.props;const {Content}=await render(post);
+---
+<Base title={post.data.title} description={post.data.description} image={post.data.image} article><section class="page-title"><div class="wrap prose"><div class="breadcrumbs"><a href="/">Inicio</a> / <a href="/noticias/">Noticias</a></div><span class="eyebrow">{post.data.category}</span><h1>{post.data.title}</h1><p>{post.data.description}</p><time class="meta" datetime={post.data.date.toISOString()}>{post.data.date.toLocaleDateString('es-CL',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'})}</time></div></section><article class="wrap section prose">{post.data.image&&<img class="article-image" src={post.data.image} alt={post.data.imageAlt||''}/>}<Content/><p style="margin-top:50px"><a class="line-link" href="/noticias/">← Volver a noticias</a></p></article></Base>
