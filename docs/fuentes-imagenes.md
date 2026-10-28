@@ -37,3 +37,20 @@ También se revisó la nota MINEDUC sobre talleres digitales comunales de 2016: 
 - No se crean variantes recortadas para aparentar fotografías nuevas.
 
 La comprobación de huellas SHA-256 de los JPG de public/images confirma dos archivos fotográficos distintos. El escudo se repite legítimamente como identidad compartida.
+
+
+## Fotografías aportadas directamente por el usuario (actualización)
+
+Las siete imágenes siguientes fueron adjuntadas con la instrucción expresa de colocarlas en el sitio. Se integran como material aportado por el solicitante, sin inventar autoría, fecha, licencia ni identidades personales. El registro de búsqueda anterior queda como historial; sus candidatas externas no se utilizan.
+
+| Archivo publicado (WebP) | Adjunto de origen | Escena / ubicación en el sitio |
+| --- | --- | --- |
+| acceso-escuela.webp | codex-clipboard-60335076-e3c4-41ef-a3df-89d659e7e6cc.png | Acceso con murales. Contacto, ubicación. |
+| fachada-escuela.webp | codex-clipboard-94b4214c-59ce-4515-9968-380a7cc11953.png | Fachada, portón y bandera. Portada del inicio. |
+| pabellon-cordillera.webp | codex-clipboard-a3511eb4-616b-4c88-be32-955bccdcaa70.png | Pabellón, bandera y montañas. Portada de Nuestra escuela. |
+| recorrido-entorno.webp | codex-clipboard-78fd13ba-19b5-486e-aa64-1d6bcf991f02.png | Estudiantes en sendero al aire libre. Proyecto educativo, entorno. |
+| actividad-aire-libre.webp | codex-clipboard-5b379d52-6d04-4301-a6f3-36c5f7c64e70.png | Grupo entre rocas y vegetación. Inicio, comunidad. |
+| banda-escolar.webp | codex-clipboard-c10666e2-303d-4875-a155-147f10b754ab.png | Banda con instrumentos en el patio. Inicio, propuesta educativa. |
+| banda-cordillera.webp | codex-clipboard-1019064d-4541-4b62-9d4a-014257912eac.png | Banda con tambores y montañas al fondo. Nuestra escuela, espacios y aprendizajes. |
+
+Se conserva el contenido de las fotografías: solo compresión WebP y ajuste de tamaño proporcional, sin generación ni retoque de personas o instalaciones. Se crearon variantes de 640 px para dispositivos pequeños cuando el original permite ese tamaño. Cada nueva fotografía tiene un único bloque principal. Las dos fotografías de prensa permanecen reservadas para sus noticias y miniaturas relacionadas. Los textos alternativos describen lo visible y no identifican personas ni atribuyen un lugar específico a las salidas.

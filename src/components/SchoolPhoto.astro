@@ -1,0 +1,5 @@
+---
+const {name,alt,width=1400,height=1400,caption,priority=false,class:className=''}=Astro.props;
+const src='/images/'+name+'.webp';
+---
+<figure class:list={['school-photo',className]}><img src={src} srcset={width>640?`/images/${name}-640.webp 640w, ${src} ${width}w`:undefined} sizes="(max-width: 760px) 100vw, 50vw" alt={alt} width={width} height={height} loading={priority?'eager':'lazy'} fetchpriority={priority?'high':undefined}/>{caption&&<figcaption>{caption}</figcaption>}</figure>
