@@ -14,7 +14,7 @@ Node 22 o superior. `npm ci`, `npm run dev`. `npm run build` genera dist. `npm r
 4. Ejecutar Publicar en Cloudflare Workers. Un push a main ejecuta la misma publicación.
 5. Agregar el dominio institucional al Worker en Cloudflare. Reconstruir al cambiar SITE_URL, pues controla canonical, sitemap y datos estructurados.
 
-La URL de revisión de Sites configurada inicialmente es provisional. La indexación pública requiere un despliegue público en Workers con el dominio correcto.
+Publicado en https://berta-hidalgo-sitio-web-institucional.admin1537.workers.dev . Al conectar el dominio institucional, actualizar SITE_URL y reconstruir.
 
 ## GitCMS
 
