@@ -1,15 +1,11 @@
 {
-  "version": "1.2",
+  "version": "1.4",
   "media": {
     "default_library": "repo_media",
     "libraries": [
       {
         "key": "repo_media",
         "label": "Repository media",
-        "driver": "git",
-        "storage": {
-          "root_path": "public"
-        },
         "references": {
           "write": {
             "mode": "root_relative",
@@ -19,6 +15,10 @@
         },
         "limits": {
           "max_file_size_mb": 10
+        },
+        "driver": "git",
+        "storage": {
+          "root_path": "public"
         }
       }
     ]
@@ -28,57 +28,7 @@
   "sitemap_url": "https://escuelabertahidalgo.cl/sitemap-index.xml",
   "publishing_mode": "editorial_workflow",
   "collections": [
-    {
-      "name": "noticias",
-      "git_path": "/src/content/noticias/",
-      "file_extension": ".md",
-      "filename_pattern": "",
-      "collection_type": "flat",
-      "frontmatter_schema": [
-        {
-          "name": "title",
-          "type": "title",
-          "label": "Title"
-        },
-        {
-          "name": "description",
-          "type": "richtext",
-          "label": "Description"
-        },
-        {
-          "name": "date",
-          "type": "datetime",
-          "label": "Date"
-        },
-        {
-          "name": "category",
-          "type": "text",
-          "label": "Category"
-        },
-        {
-          "name": "image",
-          "type": "image",
-          "label": "Image"
-        },
-        {
-          "name": "imageAlt",
-          "type": "text",
-          "label": "Image Alt"
-        },
-        {
-          "name": "draft",
-          "type": "boolean",
-          "label": "Draft",
-          "default": false
-        }
-      ]
-    },
-    {
-      "name": "docs",
-      "git_path": "/docs/",
-      "file_extension": ".md",
-      "filename_pattern": "",
-      "collection_type": "flat"
-    }
+    "noticias",
+    "docs"
   ]
 }
