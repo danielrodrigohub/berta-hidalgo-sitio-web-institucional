@@ -25,7 +25,7 @@
   },
   "ssg_framework": "astro",
   "frontmatter_format": "yaml",
-  "sitemap_url": "https://berta-hidalgo-sitio-web-institucional.admin1537.workers.dev/sitemap-index.xml",
+  "sitemap_url": "https://escuelabertahidalgo.cl/sitemap-index.xml",
   "publishing_mode": "editorial_workflow",
   "collections": [
     {
@@ -72,6 +72,13 @@
           "default": false
         }
       ]
+    },
+    {
+      "name": "docs",
+      "git_path": "/docs/",
+      "file_extension": ".md",
+      "filename_pattern": "",
+      "collection_type": "flat"
     }
   ]
 }

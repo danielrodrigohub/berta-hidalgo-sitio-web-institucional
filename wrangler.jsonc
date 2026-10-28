@@ -2,5 +2,10 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "berta-hidalgo-sitio-web-institucional",
   "compatibility_date": "2026-10-28",
+  "workers_dev": true,
+  "routes": [
+    { "pattern": "escuelabertahidalgo.cl", "custom_domain": true },
+    { "pattern": "www.escuelabertahidalgo.cl", "custom_domain": true }
+  ],
   "assets": { "directory": "./dist", "not_found_handling": "404-page" }
 }
