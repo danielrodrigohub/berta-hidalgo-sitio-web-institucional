@@ -1,0 +1,18 @@
+---
+const {name,size=40}=Astro.props;
+const paths:Record<string,string>={
+people:'M16 21a5 5 0 1 0 0-10 5 5 0 0 0 0 10Zm16 0a5 5 0 1 0 0-10 5 5 0 0 0 0 10ZM4 40v-5c0-6 5-10 12-10s12 4 12 10v5H4Zm24-14c8-2 16 2 16 9v5H32M24 8a4 4 0 1 0 0-8',
+document:'M12 3h17l10 10v32H12V3Zm17 0v11h10M18 22h15M18 28h15M18 34h15',
+calendar:'M7 10h34v32H7V10Zm0 10h34M15 4v12M33 4v12M14 27h3M24 27h3M33 27h2M14 34h3M24 34h3',
+pin:'M24 45S8 29 8 18a16 16 0 1 1 32 0c0 11-16 27-16 27Zm0-20a7 7 0 1 0 0-14 7 7 0 0 0 0 14Z',
+book:'M5 7h15l4 4 4-4h15v34H28l-4 3-4-3H5V7Zm19 4v33M10 15h8M10 22h8M30 15h8M30 22h8M10 29h8M30 29h8',
+laptop:'M9 7h30v27H9V7ZM5 34h38l3 7H2l3-7Z',
+music:'M19 34V10l24-6v24M19 16l24-6M19 34c0 4-4 7-8 7s-7-2-7-5 4-7 8-7 7 2 7 5Zm24-6c0 4-4 7-8 7s-7-2-7-5 4-7 8-7 7 2 7 5Z',
+ball:'M45 24a21 21 0 1 1-42 0 21 21 0 0 1 42 0ZM24 13l11 8-4 13H17l-4-13 11-8Zm0 0V3M35 21l9-3M31 34l6 8M17 34l-6 8M13 21l-9-3',
+download:'M24 4v26m-9-9 9 9 9-9M8 31v11h32V31',
+arrow:'M5 24h36M30 13l11 11-11 11',
+phone:'M12 5l9 10-6 6c3 6 6 9 12 12l6-6 10 9c-6 15-23 5-31-3S-6 9 12 5Z',
+mail:'M4 9h40v30H4V9Zm0 0 20 18L44 9M4 39l14-16M44 39 30 23',
+children:'M13 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12Zm22 0a6 6 0 1 0 0-12 6 6 0 0 0 0 12ZM4 31l4-11h10l5 11M26 31l4-11h10l5 11M8 21v15h10V21M30 21l-3 15h16l-3-15M10 36v9M16 36v9M32 36v9M38 36v9'};
+---
+<svg width={size} height={size} viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d={paths[name]||paths.document}/></svg>

@@ -3,7 +3,7 @@ title: Conoce el proyecto educativo de nuestra escuela
 description: Misión, visión y sellos que orientan la formación de los estudiantes de Tahuinco.
 date: 2025-03-01
 category: Información institucional
-draft: false
+draft: true
 ---
 
 El Proyecto Educativo Institucional 2025 reúne los principios que orientan la formación desde NT1 hasta 8.º básico.

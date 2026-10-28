@@ -18,7 +18,7 @@ Publicado en https://berta-hidalgo-sitio-web-institucional.admin1537.workers.dev
 
 ## GitCMS
 
-Seguir https://gitcms.dev/docs/getting-started/quick-start/ . Conectar la GitHub App al repositorio; elegir Astro y la colección de Markdown src/content/noticias; configurar medios en public/images con prefijo /images. Ver CONTENT.md para campos. Elegir publicación directa o revisión editorial: al guardar/publicar en main se activa el despliegue a Workers. GitCMS genera .gitcms durante el onboarding. Su documentación actual indica que guardar/publicar necesita licencia; no se ha contratado ni activado una.
+Seguir https://gitcms.dev/docs/getting-started/quick-start/ . Conectar la GitHub App al repositorio; elegir Astro y la colección de Markdown src/content/noticias; configurar medios en public/images con prefijo /images. Ver CONTENT.md para campos. Elegir publicación directa o revisión editorial: al guardar/publicar en main se activa el despliegue a Workers. Configuración .gitcms generada con el CLI oficial; pendiente conectar la GitHub App a la cuenta de GitCMS. Su documentación actual indica que guardar/publicar necesita licencia; no se ha contratado ni activado una.
 
 ## SEO y Education Fundamentals
 

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "sites": [
+    {
+      "key": "site",
+      "display_name": "Site",
+      "website_url": "https://berta-hidalgo-sitio-web-institucional.admin1537.workers.dev",
+      "root_path": ""
+    }
+  ]
+}
