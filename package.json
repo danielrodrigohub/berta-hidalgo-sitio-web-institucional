@@ -1,1 +1,22 @@
-{"name":"berta-hidalgo-sitio-web-institucional","version":"1.0.0","type":"module","scripts":{"dev":"astro dev --host 0.0.0.0","build":"astro build","preview":"astro preview --host 0.0.0.0","deploy":"npm run build && wrangler deploy"},"dependencies":{"astro":"^5.16.0","@astrojs/sitemap":"^3.6.0"},"devDependencies":{"wrangler":"^4.0.0"}}
+{
+  "name": "berta-hidalgo-sitio-web-institucional",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev --host 0.0.0.0",
+    "build": "astro build",
+    "preview": "astro preview --host 0.0.0.0",
+    "deploy": "npm run build && wrangler deploy",
+    "prebuild": "node scripts/generate-social-covers.mjs",
+    "predev": "node scripts/generate-social-covers.mjs"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.6.0",
+    "astro": "^5.16.0",
+    "sharp": "^0.35.5",
+    "yaml": "^2.9.1"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

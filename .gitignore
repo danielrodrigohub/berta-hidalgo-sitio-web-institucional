@@ -5,3 +5,6 @@ dist/
 .env
 .env.*
 .DS_Store
+
+# Social covers are generated from the current news on each build.
+public/images/social/
