@@ -12,4 +12,3 @@ La Escuela Berta Hidalgo Barahona recibió diez computadores para fortalecer el 
 
 El nuevo equipamiento amplía las posibilidades de investigar y realizar actividades educativas en la sala de Enlaces.
 
-Información y fotografía: [David Noticias, 6 de mayo de 2025](https://www.davidnoticias.cl/escuela-de-tahuinco-suma-modernos-computadores-gracias-a-iniciativa-impulsada-junto-a-minera-los-pelambres-y-la-junta-de-vecinos/).

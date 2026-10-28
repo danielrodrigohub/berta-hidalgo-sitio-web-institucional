@@ -1,0 +1,4 @@
+---
+const {title,eyebrow,description}=Astro.props;
+---
+<section class="inner-intro wrap"><div class="breadcrumbs"><a href="/">Inicio</a> / {Astro.props.breadcrumb||title}</div><span class="eyebrow">{eyebrow}</span><h1>{title}</h1>{description&&<p>{description}</p>}<slot/></section>

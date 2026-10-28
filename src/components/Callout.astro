@@ -1,0 +1,4 @@
+---
+const {title,text,label='Admisión y contacto',href='/contacto/'}=Astro.props;
+---
+<section class="inner-callout"><div class="wrap"><div><h2>{title}</h2>{text&&<p>{text}</p>}</div><a class="button" href={href}>{label} →</a></div></section>
