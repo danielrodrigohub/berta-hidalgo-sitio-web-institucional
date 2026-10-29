@@ -8,7 +8,7 @@ date: 2026-10-28
 category: Comunidad
 image: /images/86689134214499384438966462122721505369842711n.jpg
 imageAlt: Actividades Celebración Escuela Berta Hidalgo
-draft: true
+draft: false
 ---
 Las alianzas Marvel y DC dieron vida a una jornada de actividades artísticas, deportivas y de trabajo en equipo, con énfasis en la participación y la sana convivencia.
 
