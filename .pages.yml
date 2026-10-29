@@ -1,0 +1,74 @@
+media:
+  input: public/images
+  output: /images
+  extensions: [jpg, jpeg, png, webp]
+  rename: safe
+content:
+  - name: noticias
+    label: Noticias de la escuela
+    type: collection
+    path: src/content/noticias
+    format: yaml-frontmatter
+    subfolders: false
+    filename:
+      template: "{primary}.md"
+      field: create
+    view:
+      primary: title
+      fields: [title, date, category, draft]
+      sort: date
+      order: desc
+    fields:
+      - name: title
+        label: Título
+        type: string
+        required: true
+      - name: description
+        label: Resumen
+        type: text
+        required: true
+        description: Breve presentación para la web y las redes sociales.
+      - name: date
+        label: Fecha de la noticia
+        type: date
+        required: true
+        options:
+          time: false
+          format: yyyy-MM-dd
+      - name: category
+        label: Categoría
+        type: select
+        default: Comunidad
+        options:
+          values: [Comunidad, Espacios educativos, Información institucional, Actividades, Aprendizaje]
+      - name: image
+        label: Fotografía de portada
+        type: image
+        required: true
+        description: Usa una fotografía real. La portada para compartir se prepara automáticamente.
+      - name: imageAlt
+        label: Descripción de la fotografía
+        type: string
+        required: true
+        description: Describe lo que aparece en la imagen para quienes usan lectores de pantalla.
+      - name: draft
+        label: Guardar como borrador
+        type: boolean
+        default: true
+        description: Activado no se muestra en el sitio. Desactívalo para publicar.
+      - name: body
+        label: Contenido de la noticia
+        type: rich-text
+        required: true
+        options:
+          format: markdown
+          switcher: true
+settings:
+  content:
+    merge: true
+  commit:
+    templates:
+      create: "Crear noticia: {filename}"
+      update: "Actualizar contenido: {filename}"
+      delete: "Eliminar contenido: {filename}"
+      rename: "Renombrar contenido: {oldFilename} a {newFilename}"

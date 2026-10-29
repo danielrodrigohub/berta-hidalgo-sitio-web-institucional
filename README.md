@@ -16,9 +16,11 @@ Node 22 o superior. `npm ci`, `npm run dev`. `npm run build` genera dist. `npm r
 
 Publicado en https://escuelabertahidalgo.cl y https://www.escuelabertahidalgo.cl, conectados al Worker. Canonical y sitemap usan https://escuelabertahidalgo.cl. La URL workers.dev se conserva como acceso previo.
 
-## GitCMS
+## Pages CMS (código abierto)
 
-Seguir https://gitcms.dev/docs/getting-started/quick-start/ . Conectar la GitHub App al repositorio; elegir Astro y la colección de Markdown src/content/noticias; configurar medios en public/images con prefijo /images. Ver CONTENT.md para campos. Elegir publicación directa o revisión editorial: al guardar/publicar en main se activa el despliegue a Workers. Configuración .gitcms generada con el CLI oficial; pendiente conectar la GitHub App a la cuenta de GitCMS. Su documentación actual indica que guardar/publicar necesita licencia; no se ha contratado ni activado una.
+Pages CMS, licencia MIT, sustituye la configuración de GitCMS. El servicio alojado gratuito es https://app.pagescms.org . La configuración está en .pages.yml: colección de noticias, editor visual, fechas, categorías, borradores y medios en public/images. Acceso de la escuela: https://escuelabertahidalgo.cl/admin/ .
+
+El propietario debe autorizar la GitHub App de Pages CMS para este repositorio. Las ediciones se guardan en main y activan la publicación automática en Workers. No se necesita contratar una licencia de CMS. La autenticación la gestiona Pages CMS; la página /admin/ es un acceso al editor, no un sistema de cuentas independiente.
 
 ## SEO y Education Fundamentals
 
